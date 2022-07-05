@@ -41,11 +41,43 @@ h1{
     font-weight: bold;
     color: white;
     cursor: pointer;
+    
 }
 #doante-content{
     text-align: center;
 }
 #doante-content p{
     opacity: 90%;
+}
+#donate-item{
+    display: flex;
+    margin-left: 200px;
+}
+.donate-ammount{
+    
+    margin: 50px;
+}
+#select-ammount{
+    border: 2px solid #FF5959;
+    color: red;
+    padding: 30px 15px;
+    border-radius: 10px;
+    background-color: #d6a3a3;
+}
+#other-ammount{
+    text-align: center;
+    
+   
+    
+}
+input{
+    font-size: 25px;
+    text-align: center;
+    width: 60%;
+    background-color: #eee;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
 }
 
