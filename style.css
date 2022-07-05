@@ -7,7 +7,7 @@ body{
    
 }
 section{
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 
 }
 h1{
@@ -43,12 +43,11 @@ h1{
     cursor: pointer;
     
 }
-#doante-content{
+.doante-content{
     text-align: center;
-}
-#doante-content p{
     opacity: 90%;
 }
+
 #donate-item{
     display: flex;
     margin-left: 200px;
@@ -70,14 +69,34 @@ h1{
    
     
 }
-input{
+.amount-box{
     font-size: 25px;
     text-align: center;
     width: 60%;
-    background-color: #eee;
-    border-top-style: hidden;
-    border-right-style: hidden;
-    border-left-style: hidden;
-    border-bottom-style: groove;
+    
+    border-left: none;
+    border-top: none;
+    border-right: none;
 }
-
+#item-list{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.one-third{
+    width: 33%;
+    margin: 100px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+#box1{
+    background-color: #4F9DA6;
+}
+#box2{
+    background-color: #FF5959 ;
+}
+#box3{
+    background-color: #ca7a7a ;
+}
