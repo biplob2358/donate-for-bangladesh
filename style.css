@@ -59,8 +59,9 @@ h1{
 #select-ammount{
     border: 2px solid #FF5959;
     color: red;
-    padding: 30px 15px;
+    padding: 20px 20px;
     border-radius: 10px;
+    margin-top: 30px;
     background-color: #d6a3a3;
 }
 #other-ammount{
